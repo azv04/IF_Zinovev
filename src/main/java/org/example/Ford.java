@@ -1,6 +1,6 @@
 package org.example;
 
-public class Ford {
+public class Ford extends Car {
     private boolean isElectric;
 
     public Ford(String model, int year, String transmission, String color, String fuelType, double engineCapacity, boolean isElectric) {

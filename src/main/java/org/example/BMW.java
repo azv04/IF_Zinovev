@@ -1,6 +1,6 @@
 package org.example;
 
-public class BMW {
+public class BMW extends Car {
     private int horsepower;
 
     public BMW(String model, int year, String transmission, String color, String fuelType, double engineCapacity, int horsepower) {
